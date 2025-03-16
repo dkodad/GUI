@@ -4716,11 +4716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\async_WPF\\Razor\\Razor.csproj",
+      "projectUniqueName": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\Projekt_GUI\\Razor\\Razor.csproj",
       "projectName": "Razor",
-      "projectPath": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\async_WPF\\Razor\\Razor.csproj",
+      "projectPath": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\Projekt_GUI\\Razor\\Razor.csproj",
       "packagesPath": "C:\\Users\\petri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\async_WPF\\Razor\\obj\\",
+      "outputPath": "C:\\Users\\petri\\Desktop\\Vysoká_skola\\GUI\\Projekt_GUI\\Razor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
