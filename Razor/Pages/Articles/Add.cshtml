@@ -1,0 +1,29 @@
+﻿@page
+@model Razor.Pages.Articles.AddModel
+@{
+	var message = ViewData["message"]?.ToString();
+}
+
+<form method="post">
+<h1 class="mb-3">Add New Article</h1>
+
+	@if (!string.IsNullOrEmpty(message)){
+		<div class="alert alert-success" role="alert">
+			@message
+		</div>
+	}
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Description</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Description" />
+</div>
+
+<div class="mb-3">
+	<button type="submit" class="btn btn-primary">Save</button>
+</div>
+</form>

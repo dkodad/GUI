@@ -160,4 +160,185 @@ Následné použití této migration pro vytvoření tabulky.
 ```bash
 Update-Database
 ```
+## Vytvoření stránky Add
 
+Ve složce **Pages** vytvoříme novou složku **Articles**. Ve složce si vytvoříme novou Razor stranků následovně: **Articles->Razor Page->Razor Page - Empty** a pojmenujeme ji **Add.cshtml**.
+
+**Add.cshtml** bude vypadat následovně:
+
+```csharp
+@page
+@model Razor.Pages.Articles.AddModel
+@{
+}
+
+<form method="post">
+<h1 class="mb-3">Add New Article</h1>
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+	<input type="text" class="form-control" />
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Description</label>
+	<input type="text" class="form-control" />
+</div>
+
+<div class="mb-3">
+	<button type="submit" class="btn btn-primary">Save</button>
+</div>
+</form>
+```
+Poté se nám vytvoří stránka, na které bude formulář pro přidávání příspěvků. 
+
+Pro zobrazení stránky připište v prohlížeči za localhost/xxxx/Articles/Add. Např.: localhost:7152/Articles/Add
+
+Chceme zobrazit kód třídy stránky **Add.cshtml**. Stisknete klávesu F7. Poté zde přídáme novou metodu:
+
+```csharp
+//Because we use post method to send form data
+public void OnPost() 
+{
+}
+```
+
+Ve složce **Models** vytvoříme novou podložku s názvem **ViewModels** a v ní vytvoříme novou třídu s názvem **AddArticleViewModel.class**.
+
+Ve třídě **AddArticleViewModel** vložíme tento kód:
+
+```csharp
+public class AddArticleViewModel
+{
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public DateTime CreatedAt { get; set; }
+}
+```
+
+Nyní do **Add.cshtml.cs** vložíme tento kód:
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Razor.Models.ViewModels;
+
+namespace Razor.Pages.Articles
+{
+    public class AddModel : PageModel
+    {
+        [BindProperty]
+        public AddArticleViewModel AddArticleRequest { get; set; }
+        public void OnGet()
+        {
+        }
+        //Because we use post method to send form data
+        public void OnPost() 
+        {
+        }
+    }
+}
+```
+
+Upravíme **Add.cshtml** takto:
+
+```csharp
+<form method="post">
+<h1 class="mb-3">Add New Article</h1>
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Description</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Description" />
+</div>
+
+
+<div class="mb-3">
+	<button type="submit" class="btn btn-primary">Save</button>
+</div>
+</form>
+```
+
+Upravíme **Add.cshtml.cs** takto:
+
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Razor.Data;
+using Razor.Models.Entities;
+using Razor.Models.ViewModels;
+using System.Reflection;
+
+namespace Razor.Pages.Articles
+{
+    public class AddModel : PageModel
+    {
+        private readonly RazorDbContext dbContext;
+
+        public AddModel(RazorDbContext dbContext) 
+        {
+            this.dbContext = dbContext;
+        }
+
+        [BindProperty]
+        public AddArticleViewModel AddArticleRequest { get; set; }
+        public void OnGet()
+        {
+        }
+        //Because we use post method to send form data
+        public void OnPost() 
+        {
+            AddArticleRequest.CreatedAt = DateTime.Now;
+            //Convert ViewModel to EntitiesModel
+            var articleEntitiesModel = new Article
+            {
+                Title = AddArticleRequest.Title,
+                Description = AddArticleRequest.Description,
+                CreatedAt = AddArticleRequest.CreatedAt,
+            };
+            dbContext.Articles.Add(articleEntitiesModel);
+            dbContext.SaveChanges();
+
+            ViewData["Message"] = "Article created succesfully.";
+        }
+    }
+}
+```
+Pro zobrazení zprávy, že jsme úspěšně uložili příspěvek musíme upravit **Add.cshtml** takto:
+
+```csharp
+@page
+@model Razor.Pages.Articles.AddModel
+@{
+	var message = ViewData["message"]?.ToString();
+}
+
+<form method="post">
+<h1 class="mb-3">Add New Article</h1>
+
+	@if (!string.IsNullOrEmpty(message)){
+		<div class="alert alert-success" role="alert">
+			@message
+		</div>
+	}
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Description</label>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Description" />
+</div>
+
+<div class="mb-3">
+	<button type="submit" class="btn btn-primary">Save</button>
+</div>
+</form>
+```
