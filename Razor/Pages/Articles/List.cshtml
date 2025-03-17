@@ -16,6 +16,7 @@
         <th>Title</th>
         <th>Description</th>
         <th>CreatedAt</th>
+        <th> </th>
       </tr>
     </thead>
     <tbody>
@@ -26,6 +27,9 @@
                     <td>@article.Title</td>
                     <td>@article.Description</td>
                     <td>@article.CreatedAt</td>
+                    <td>
+						<a href="/Articles/Edit/@article.Id" class="btn btn-dark">Edit</a>
+                    </td>
             </tr>
         }
     </tbody>

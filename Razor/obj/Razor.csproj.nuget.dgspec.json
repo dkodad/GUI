@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Razor.csproj": {}
+    "C:\\Users\\frozu\\source\\repos\\gui\\Razor\\Razor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Razor.csproj": {
+    "C:\\Users\\frozu\\source\\repos\\gui\\Razor\\Razor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Razor.csproj",
+        "projectUniqueName": "C:\\Users\\frozu\\source\\repos\\gui\\Razor\\Razor.csproj",
         "projectName": "Razor",
-        "projectPath": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Razor.csproj",
-        "packagesPath": "C:\\Users\\Raveyun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\obj\\",
+        "projectPath": "C:\\Users\\frozu\\source\\repos\\gui\\Razor\\Razor.csproj",
+        "packagesPath": "C:\\Users\\frozu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frozu\\source\\repos\\gui\\Razor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raveyun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frozu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
