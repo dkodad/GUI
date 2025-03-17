@@ -407,3 +407,20 @@ else{
 }
 ```
 Po spuštění programu chceme zobrazit naší nově vytvořenou stránku **List**. Pro zobrazení stránky připište v prohlížeči za localhost/xxxx/Articles/List. Např.: localhost:7152/Articles/List
+
+Pro přidání stránek do menu potřebujeme upravit soubor **_Layout.cshtml**, který se nachází v **Pages->Shared**. Najdeme v **<nav>** tag **<ul>** a celý ho upravíme následovně:
+
+```csharp
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Articles/Add">Add Article</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Articles/List">List Articles</a>
+    </li>
+</ul>
+```
+Nyní uvidíme naše stránky v menu.
