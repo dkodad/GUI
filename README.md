@@ -408,7 +408,7 @@ else{
 ```
 Po spuštění programu chceme zobrazit naší nově vytvořenou stránku **List**. Pro zobrazení stránky připište v prohlížeči za localhost/xxxx/Articles/List. Např.: localhost:7152/Articles/List
 
-Pro přidání stránek do menu potřebujeme upravit soubor **_Layout.cshtml**, který se nachází v **Pages->Shared**. Najdeme v <nav> tag <ul> a celý ho upravíme následovně:
+Pro přidání stránek do menu potřebujeme upravit soubor **_Layout.cshtml**, který se nachází v **Pages->Shared**. Najdeme v **`<nav>`** tag **`<ul>`** a celý ho upravíme následovně:
 
 ```csharp
 <ul class="navbar-nav flex-grow-1">
