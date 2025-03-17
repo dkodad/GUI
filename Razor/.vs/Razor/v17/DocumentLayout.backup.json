@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\articles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\articles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\models\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:models\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F24CC4B-4369-4141-92F9-3193AF6397EF}|Razor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,51 +52,53 @@
               "RelativeDocumentMoniker": "Pages\\Articles\\List.cshtml",
               "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\List.cshtml",
               "RelativeToolTip": "Pages\\Articles\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T07:56:03.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddArticleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Models\\ViewModels\\AddArticleViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\AddArticleViewModel.cs",
-              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Models\\ViewModels\\AddArticleViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\AddArticleViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Articles\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\List.cshtml.cs",
+              "RelativeToolTip": "Pages\\Articles\\List.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:09:06.976Z"
+              "WhenOpened": "2025-03-17T07:59:16.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\Add.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Articles\\Add.cshtml.cs",
               "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\Add.cshtml.cs",
               "RelativeToolTip": "Pages\\Articles\\Add.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA0wCUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:06:11.192Z"
+              "WhenOpened": "2025-03-16T19:06:11.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\Add.cshtml",
               "RelativeDocumentMoniker": "Pages\\Articles\\Add.cshtml",
               "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\Add.cshtml",
               "RelativeToolTip": "Pages\\Articles\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T18:40:24.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
@@ -113,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -121,7 +119,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T10:44:18.719Z"
+              "WhenOpened": "2025-03-16T10:44:18.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,11 +132,12 @@
               "RelativeToolTip": "Models\\Entities\\Article.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T10:35:48.148Z"
+              "WhenOpened": "2025-03-16T10:35:48.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -146,19 +146,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T17:07:39.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "List.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\List.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Articles\\List.cshtml.cs",
-              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor\\Pages\\Articles\\List.cshtml.cs",
-              "RelativeToolTip": "Pages\\Articles\\List.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T07:59:16.129Z",
               "EditorCaption": ""
             }
           ]

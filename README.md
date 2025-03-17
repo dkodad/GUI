@@ -204,7 +204,7 @@ public void OnPost()
 {
 }
 ```
-Nyní abychom mohli dostat data poslaná naším formulářem z naší Razor stránky **Add.cshtml**, potřebujeme si vytvořit nový ViewModel.
+Nyní abychom mohli dostat data poslaná naším formulářem z naší Razor stránky **Add.cshtml**, potřebujeme si vytvořit nový **ViewModel**.
 
 Ve složce **Models** vytvoříme novou podsložku s názvem **ViewModels** a v ní vytvoříme novou třídu s názvem **AddArticleViewModel.class**.
 
@@ -366,7 +366,7 @@ Pro zobrazení zprávy, že jsme úspěšně uložili příspěvek musíme uprav
 </div>
 </form>
 ```
-**Přidání List stránky**
+## Přidání List stránky
 
 Nyní si vytvoříme novou Razor stránku pro zobrazení příspěvků z databáze.
 Přidáme nový soubor do složky **Articles**, která se nachází ve složce **Pages**. Vytvoříme novou Razor stránku následovně: **Articles->Razor Page->Razor Page - Empty** a pojmenujeme ji **List.cshtml**.
@@ -385,7 +385,7 @@ namespace Razor.Pages.Articles
         //Like in Add.cshtml.cs we need to create this property so we can use it in the OnGet() method
         private readonly RazorDbContext dbContext;
         
-        public List<Models.Entities.Article> Articles { get; set; };
+        public List<Models.Entities.Article> Articles { get; set; }
         
         public ListModel(RazorDbContext dbContext)
         {
@@ -440,7 +440,9 @@ else{
     <p>No articles found!</p>
 }
 ```
-Po spuštění programu chceme zobrazit naší nově vytvořenou stránku **List**. Pro zobrazení stránky připište v prohlížeči za localhost/xxxx/Articles/List. Např.: localhost:7152/Articles/List. Na stránce se nám zobrazí naše vytvořené články.
+Po spuštění programu chceme zobrazit naší nově vytvořenou stránku **List**. Pro zobrazení stránky připište v prohlížeči za **localhost/xxxx/Articles/List**. Např.: **localhost:7152/Articles/List**. Na stránce se nám zobrazí naše vytvořené články.
+
+## Upravit menu
 
 Pro přidání stránek do menu potřebujeme upravit soubor **_Layout.cshtml**, který se nachází v **Pages->Shared**. Najdeme v **`<nav>`** tag **`<ul>`** a celý ho upravíme následovně:
 

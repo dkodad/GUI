@@ -9,7 +9,7 @@ namespace Razor.Pages.Articles
         //Like in Add.cshtml.cs we need to create this property so we can use it in the OnGet() method
         private readonly RazorDbContext dbContext;
 
-        public List<Models.Entities.Article> Articles { get; set; };
+        public List<Models.Entities.Article> Articles { get; set; }
 
         public ListModel(RazorDbContext dbContext)
         {
