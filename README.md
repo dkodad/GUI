@@ -342,3 +342,68 @@ Pro zobrazení zprávy, že jsme úspěšně uložili příspěvek musíme uprav
 </div>
 </form>
 ```
+Přidáme nový soubor do složky **Articles**, která se nachází ve složce **Pages**. Vytvoříme novou Razor stránku následovně: **Articles->Razor Page->Razor Page - Empty** a pojmenujeme ji **List.cshtml**.
+
+Zobrazíme si kód stránky pomocí klávesové zkratky F7. Kód stránky bude vypadat následovně:
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Razor.Data;
+
+namespace Razor.Pages.Articles
+{
+    public class ListModel : PageModel
+    {
+        private readonly RazorDbContext dbContext;
+        public List<Models.Entities.Article> Articles { get; set; };
+        public ListModel(RazorDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+        public void OnGet()
+        {
+            Articles = dbContext.Articles.ToList();
+        }
+    }
+}
+```
+Teď uděláme strukturu stránky **List.cshtml**:
+
+```csharp
+@page
+@model Razor.Pages.Articles.ListModel
+@{
+}
+
+<h1 class="mb-3">List of Articles</h1>
+
+@if (Model.Articles != null && Model.Articles.Any())
+{
+
+	<table>
+    <thead>
+        <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>CreatedAt</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var article in Model.Articles){
+            <tr>
+                    <td>@article.Id</td>
+                    <td>@article.Title</td>
+                    <td>@article.Description</td>
+                    <td>@article.CreatedAt</td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else{
+    <p>No articles found!</p>
+}
+```
+Po spuštění programu chceme zobrazit naší nově vytvořenou stránku **List**. Pro zobrazení stránky připište v prohlížeči za localhost/xxxx/Articles/List. Např.: localhost:7152/Articles/List
