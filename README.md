@@ -460,3 +460,196 @@ Pro přidání stránek do menu potřebujeme upravit soubor **_Layout.cshtml**, 
 </ul>
 ```
 Nyní uvidíme naše stránky v menu.
+
+## Vytvoření Edit stránky
+
+Ve složce Articles si vytvoříme novou Razor stránku následujícím způsobem: Articles → Razor Page → Razor Page - Empty a pojmenujeme ji Edit.cshtml.
+
+Abychom mohli upravovat konkrétní příspěvky, potřebujeme znát ID daného příspěvku.
+```csharp
+@page "{id:Guid}"
+@model Razor.Pages.Articles.EditModel
+@{
+}
+```
+
+Pro přidání nové metody si zobrazíme kód třídy stránky Edit.cshtml. Poté přidáme novou metodu:
+```csharp
+public void OnGet(Guid id)
+{
+    
+}
+```
+Do Edit.cshtml přidáme následující:
+```csharp
+<form method="post">
+	<h1 class="mb-3">Edit Article</h1>
+	<div class="mb-3">
+	<label class="form-label">Id</label>
+	
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Id" readonly/>
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+	
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" />
+</div>
+
+<div class="mb-3">
+	<label for="description" class="form-label">Description</label>
+	<!--Textarea is bigger input field for bigger chunk of text-->
+	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5"></textarea>
+
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Created At</label>
+
+	<input type="date" class="form-control" asp-for="EditArticleViewModel.CreatedAt" readonly />
+</div>
+
+<div class="mb-3 d-flex justify-content-between">
+	<button type="submit" class="btn btn-primary" asp-page-handler="Edit">
+		Edit
+	</button>
+	<button type="submit" class="btn btn-danger" asp-page-handler="Delete">
+		Delete
+	</button>
+</div>
+</form>
+```
+
+Nyní, abychom mohli načíst data do formuláře z naší Razor stránky Edit.cshtml, potřebujeme vytvořit nový ViewModel.
+
+Ve složce ViewModels vytvoříme novou třídu s názvem EditArticleViewModel.cs.
+```csharp
+ public class EditArticleViewModel
+ {
+     public Guid Id { get; set; }
+     public string Title { get; set; }
+     public string Description { get; set; }
+     public DateTime CreatedAt { get; set; }
+ }
+```
+Nyní do Edit.cshtml.cs přidáme novou vlastnost:
+```csharp
+public EditArticleViewModel EditArticleViewModel { get; set; }
+```
+
+
+Musíme použít náš vytvořený dbContext, protože funguje jako most mezi Entity Frameworkem a naší databází. Edit.cshtml.cs upravíme takto:
+```csharp
+public void OnGet(Guid id)
+{
+    var article = dbContext.Articles.Find(id);
+
+    if (article != null)
+    {
+        // Domain Model => View Model
+        EditArticleViewModel = new EditArticleViewModel()
+        {
+            Id = article.Id,
+            Title = article.Title,
+            Description = article.Description,
+            CreatedAt = article.CreatedAt
+
+        };
+    }
+}
+```
+
+Nyní, abychom mohli po úpravě formuláře data odeslat zpět, musíme vytvořit metodu OnPostEdit(), která vypadá takto:
+```csharp
+public void OnPostEdit()
+{
+
+    if (EditArticleViewModel != null)
+    {
+        var theArticle = dbContext.Articles.Find(EditArticleViewModel.Id);
+        if( theArticle != null)
+        {
+
+
+            theArticle.Title = EditArticleViewModel.Title;
+            theArticle.Description = EditArticleViewModel.Description;
+
+            dbContext.SaveChanges();
+
+            ViewData["Message"] = "Article updated successfully";
+
+        }
+    }
+```
+Tato metoda odešle data z formuláře do databáze.
+
+Pro zobrazení zprávy, že jsme příspěvek úspěšně upravili, musíme upravit Edit.cshtml takto:
+```csharp
+@page "{id:Guid}"
+@model Razor.Pages.Articles.EditModel
+@{
+	var message = ViewData["Message"]?.ToString();
+}
+
+
+<form method="post">
+	<h1 class="mb-3">Edit Article</h1>
+	@if (!string.IsNullOrWhiteSpace(message))
+	{
+		<div class="alert alert-success" role="alert">
+			@message
+		</div>	
+	}
+	<div class="mb-3">
+	<label class="form-label">Id</label>
+	
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Id" readonly/>
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Title</label>
+	
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" />
+</div>
+
+<div class="mb-3">
+	<label for="description" class="form-label">Description</label>
+	<!--Textarea is bigger input field for bigger chunk of text-->
+	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5"></textarea>
+
+</div>
+
+<div class="mb-3">
+	<label class="form-label">Created At</label>
+
+	<input type="date" class="form-control" asp-for="EditArticleViewModel.CreatedAt" readonly />
+</div>
+
+<div class="mb-3 d-flex justify-content-between">
+	<button type="submit" class="btn btn-primary" asp-page-handler="Edit">
+		Edit
+	</button>
+	<button type="submit" class="btn btn-danger" asp-page-handler="Delete">
+		Delete
+	</button>
+</div>
+</form>
+```
+Jelikož máme dvě tlačítka v jednom formuláři, potřebujeme, aby každé tlačítko volalo jinou metodu. K tomu Razor nabízí atribut asp-page-handler.
+
+Nyní přidáme metodu pro smazání příspěvku. K tomu nám poslouží metoda OnPostDelete():
+```csharp
+public IActionResult OnPostDelete()
+{
+    var theArticle = dbContext.Articles.Find(EditArticleViewModel.Id);
+
+    if (theArticle != null)
+    {
+        dbContext.Articles.Remove(theArticle);
+        dbContext.SaveChanges();
+
+        return RedirectToPage("/Articles/List");
+    }
+    return Page();
+}
+```
