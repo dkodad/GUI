@@ -653,3 +653,75 @@ public IActionResult OnPostDelete()
     return Page();
 }
 ```
+
+## Základní ostylování
+
+Upravená stránka **Index.cshtml**:
+
+```csharp
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my blog</h1>
+    <p>You can add, edit and delete articles. It's a simple blog for learning Razor pages with Entity.Framework</p>
+    <img src="images/RazorLogo.jpg" alt="Razor" />
+    <img src="images/EntityFrameworkLogo.png" alt="EntityFramework" />
+</div>
+```
+
+Upravená stránka **List.cshtml**:
+
+```csharp
+@page
+@model Razor_GUI.Pages.Articles.ListModel
+@{
+}
+
+<h1 class="mb-3">List of Articles</h1>
+
+<!--Create table only if some Article exist-->
+@if (Model.Articles.Any())
+{
+    <table class="table table-striped table-bordered mt-3">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model.Articles)
+            {
+                <tr>
+                    <td>@article.Id</td>
+                    <td>@article.Title</td>
+                    <td>
+                        <!--Scrollable if too long-->
+                        <div style="max-height: 7.5em; overflow-y: auto; white-space: pre-wrap;">
+                            @article.Description
+                        </div>
+                    </td>
+                    <td>@article.CreatedAt.ToString("dd-MM-yyyy HH:mm")</td>
+                    <td>
+                        <a href="/Articles/Edit/@article.Id" class="btn btn-sm btn-primary">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning text-center mt-3">
+        <p>No articles found!</p>
+    </div>
+}
+```
+
