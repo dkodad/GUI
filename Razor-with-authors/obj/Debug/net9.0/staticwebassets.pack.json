@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor-with-authors\\wwwroot\\images\\EntityFrameworkLogo.png",
+      "PackagePath": "staticwebassets\\images\\EntityFrameworkLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor-with-authors\\wwwroot\\images\\RazorLogo.jpg",
+      "PackagePath": "staticwebassets\\images\\RazorLogo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor-with-authors\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
