@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Razor_GUI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Razor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e4e0449dc72f5d008649bca4070e3f62ee57b8")]
-[assembly: System.Reflection.AssemblyProductAttribute("Razor_GUI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Razor_GUI")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ac6a597a79bb46ecaf8c75cf91103bd208fb374")]
+[assembly: System.Reflection.AssemblyProductAttribute("Razor")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Razor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Vygenerované třídou WriteCodeFragment nástroje MSBuild
