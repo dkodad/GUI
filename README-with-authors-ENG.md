@@ -1,6 +1,6 @@
-## Přidání autorů článku
+## Add authors to articles
 
-Přidáme novou vlastnost třídě **Article.cs** umístěné v **Models->Entities**:
+We will add new property to the class **Article.cs** located in **Models->Entities**:
 
 ```csharp
 public class Article
@@ -14,28 +14,29 @@ public class Article
 }
 ```
 
-Teď potřebujeme upravit naše schéma databáze pomocí **Migration**. Spustíme si **Nástroje->Správa balíčků NuGet->Konzole Správce balíčků** napíšeme následující příkaz:
+Now we need to update the scheme of our database with **Migration**. We need to access **Tools->NuGet Package Manager->Package Manager Console**, then we will write this commands:
 
 ```bash
 Add-Migration "AddAuthorToArticle"
 ```
-Následné použití této migration upravý schéma naší tabulky **Articles**, přídá do ní řádek **Author**.
+
+This migration will update the scheme of the table **Articles**, it will add row **Authors**.
 
 ```bash
 Update-Database
 ```
-Nyní musíme upravit naše **ViewModely AddArticleViewModel** a **EditArticleViewModel**:
+Now we must alter our **ViewModels AddArticleViewModel** and **EditArticleViewModel**:
 
-**AddArticleViewModel.cs** a **EditArticleViewModel.cs**:
+**AddArticleViewModel.cs** and **EditArticleViewModel.cs**:
 
 ```csharp
    //Added Author
    public string Author { get; set; }
 ```
 
-Následně budeme muset upravit naše stránky, abychom si mohli přidat autory článků a také je zobrazovat.
+After that, we will need to alter our pages so that we can add authors of articles and display them.
 
-**Upravená stránka Add.cshtml**:
+**Altered page Add.cshtml**:
 
 ```csharp
 @page
@@ -83,7 +84,7 @@ Následně budeme muset upravit naše stránky, abychom si mohli přidat autory 
 </form>
 ```
 
-**Upravy kódu za stránkou Add.cshtml.cs**:
+**Altered code behind the page Add.cshtml.cs**:
 
 ```csharp
 var articleEntitiesModel = new Article
@@ -97,7 +98,7 @@ var articleEntitiesModel = new Article
 };
 ```
 
-**Upravená stránka List.cshtml**
+**Altered page List.cshtml**
 
 ```csharp
 @page
@@ -145,9 +146,9 @@ else{
 }
 ```
 
-Nyní na stránce **List.cshtml** uvidíme autora. Teď potřebujeme ještě mít možnost změnit jméno autora.
+After that we will see the author on the page **List.cshtml**. Now we need the option of changing the author of the page.
 
-**Úpravy na stránce Edit.cshtml**
+**Changes on the page Edit.cshtml**
 
 ```csharp
  <!--Added Author to the form so we can change it-->
@@ -158,7 +159,7 @@ Nyní na stránce **List.cshtml** uvidíme autora. Teď potřebujeme ještě mí
 </div>
 ```
 
-**Upravený kód stránky Edit.cshtml.cs**
+**Altered code behind the page Edit.cshtml.cs**
 
 ```csharp
 public void OnGet(Guid id)
@@ -205,11 +206,11 @@ public void OnPostEdit()
     
 }
 ```
-Nyní můžeme vytvářet příspěvky s autorem a můžeme i během úpravy příspěvku autora změnit.
+Now we can finally create articles with authors and we can change author in editing the article.
 
-## Základní design
+## Added basic design
 
-Upravená stránka **Index.cshtml**, která se nachází v **Pages->Shared**:
+Altered page **Index.cshtml**, that is located in folder **Pages->Shared**:
 
 ```csharp
 @page
@@ -225,7 +226,7 @@ Upravená stránka **Index.cshtml**, která se nachází v **Pages->Shared**:
     <img src="images/EntityFrameworkLogo.png" alt="EntityFramework" />
 </div>
 ```
-Upravená stránka **List.cshtml**:
+Altered page **List.cshtml**:
 
 ```csharp
 @page
