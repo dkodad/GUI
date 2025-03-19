@@ -27,8 +27,9 @@ namespace Razor.Pages.Articles
                     Id = article.Id,
                     Title = article.Title,
                     Description = article.Description,
-                    CreatedAt = article.CreatedAt
-
+                    CreatedAt = article.CreatedAt,
+                    //Added edit author
+                    Author = article.Author,
                 };
             }
         }
@@ -45,6 +46,8 @@ namespace Razor.Pages.Articles
 
                     theArticle.Title = EditArticleViewModel.Title;
                     theArticle.Description = EditArticleViewModel.Description;
+                    //Added edit author
+                    theArticle.Author = EditArticleViewModel.Author;
 
                     dbContext.SaveChanges();
 

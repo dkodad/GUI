@@ -144,4 +144,64 @@ else{
 }
 ```
 
-Nyní na stránce **List.cshtml** uvidíme autora.
+Nyní na stránce **List.cshtml** uvidíme autora. Teď potřebujeme ještě mít možnost změnit jméno autora.
+
+**Úpravy na stránce Edit.cshtml**
+
+```csharp
+ <!--Added Author to the form so we can change it-->
+<div class="mb-3">
+		<label class="form-label">Author</label>
+
+		<input type="text" class="form-control" asp-for="EditArticleViewModel.Author" />
+</div>
+```
+
+**Upravený kód stránky Edit.cshtml.cs**
+
+```csharp
+public void OnGet(Guid id)
+{
+    var article = dbContext.Articles.Find(id);
+
+    if (article != null)
+    {
+        // Domain Model => View Model
+        EditArticleViewModel = new EditArticleViewModel()
+        {
+            Id = article.Id,
+            Title = article.Title,
+            Description = article.Description,
+            CreatedAt = article.CreatedAt,
+            //Added edit author
+            Author = article.Author,
+        };
+    }
+}
+
+public void OnPostEdit()
+{
+
+    if (EditArticleViewModel != null)
+    {
+        var theArticle = dbContext.Articles.Find(EditArticleViewModel.Id);
+        if( theArticle != null)
+        {
+
+
+            theArticle.Title = EditArticleViewModel.Title;
+            theArticle.Description = EditArticleViewModel.Description;
+            //Added edit author
+            theArticle.Author = EditArticleViewModel.Author;
+
+            dbContext.SaveChanges();
+
+            ViewData["Message"] = "Article updated successfully";
+
+        }
+    }
+    // View model => Domain Model
+    
+}
+```
+Nyní můžeme vytvářet příspěvky s autorem a můžeme i během úpravy příspěvku autora změnit.
