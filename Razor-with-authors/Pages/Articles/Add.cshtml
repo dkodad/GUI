@@ -19,20 +19,20 @@
 <div class="mb-3">
 	<label class="form-label">Title</label>
 		<!--We added the asp-for="AddArticleRequest.Title" so our property will store the value like [Title = <our title name>]-->
-		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title" required/>
 </div>
 
 <div class="mb-3">
 		<label for="author" class="form-label">Author</label>
 		<!--We will add author of the article-->
-		<input type="text" class="form-control" asp-for="AddArticleRequest.Author" />
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Author" required/>
 
 </div>
 
 <div class="mb-3">
 		<label for="description" class="form-label">Description</label>
 		<!--Textarea is bigger input field for bigger chunk of text-->
-		<textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5"></textarea>
+		<textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5" required></textarea>
 
 </div>
 

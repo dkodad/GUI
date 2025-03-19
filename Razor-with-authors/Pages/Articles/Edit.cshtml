@@ -22,20 +22,20 @@
 <div class="mb-3">
 	<label class="form-label">Title</label>
 	
-	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" />
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" required/>
 </div>
 
  <!--Added Author to the form so we can change it-->
 <div class="mb-3">
 		<label class="form-label">Author</label>
 
-		<input type="text" class="form-control" asp-for="EditArticleViewModel.Author" />
+		<input type="text" class="form-control" asp-for="EditArticleViewModel.Author" required/>
 </div>
 
 <div class="mb-3">
 	<label for="description" class="form-label">Description</label>
 	<!--Textarea is bigger input field for bigger chunk of text-->
-	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5"></textarea>
+	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5" required></textarea>
 
 </div>
 
