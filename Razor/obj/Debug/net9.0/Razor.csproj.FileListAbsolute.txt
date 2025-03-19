@@ -696,3 +696,4 @@ C:\Users\frozu\source\repos\gui\Razor\obj\Debug\net9.0\Razor.pdb
 C:\Users\frozu\source\repos\gui\Razor\obj\Debug\net9.0\Razor.genruntimeconfig.cache
 C:\Users\frozu\source\repos\gui\Razor\obj\Debug\net9.0\ref\Razor.dll
 C:\Users\frozu\source\repos\gui\Razor\bin\Debug\net9.0\libman.json
+C:\Users\Raveyun\Documents\GitHub\GUI\Razor\bin\Debug\net9.0\libman.json
