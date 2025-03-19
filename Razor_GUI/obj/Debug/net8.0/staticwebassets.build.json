@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/+kaw6G7LU+R6eSB7luTcv2pp6xC/hxQHUX5gBU6Hw0=",
+  "Hash": "GpVYPOVZU3dKGW87kCA2Vd8gmWjDRxkPpvoKVwRS+pU=",
   "Source": "Razor_GUI",
   "BasePath": "_content/Razor_GUI",
   "Mode": "Default",
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\EntityFrameworkLogo.png",
+      "SourceId": "Razor_GUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\",
+      "BasePath": "_content/Razor_GUI",
+      "RelativePath": "images/EntityFrameworkLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o94adzequl",
+      "Integrity": "5NKfotqmS6PS4DAyw6RZ7ico5QMt2LaYkEq13GU1SyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\EntityFrameworkLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\RazorLogo.jpg",
+      "SourceId": "Razor_GUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\",
+      "BasePath": "_content/Razor_GUI",
+      "RelativePath": "images/RazorLogo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6fx5cnemdv",
+      "Integrity": "jh8uzMgQQe3aq/Rr63PMHz/Y9OA/avfWGLbHkcVEQpY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\RazorLogo.jpg"
     },
     {
       "Identity": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\js\\site.js",
@@ -1481,6 +1523,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/EntityFrameworkLogo.o94adzequl.png",
+      "AssetFile": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\EntityFrameworkLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NKfotqmS6PS4DAyw6RZ7ico5QMt2LaYkEq13GU1SyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 09:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o94adzequl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/EntityFrameworkLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NKfotqmS6PS4DAyw6RZ7ico5QMt2LaYkEq13GU1SyQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/EntityFrameworkLogo.png",
+      "AssetFile": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\EntityFrameworkLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NKfotqmS6PS4DAyw6RZ7ico5QMt2LaYkEq13GU1SyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 09:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NKfotqmS6PS4DAyw6RZ7ico5QMt2LaYkEq13GU1SyQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/RazorLogo.6fx5cnemdv.jpg",
+      "AssetFile": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\RazorLogo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jh8uzMgQQe3aq/Rr63PMHz/Y9OA/avfWGLbHkcVEQpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 09:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6fx5cnemdv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/RazorLogo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jh8uzMgQQe3aq/Rr63PMHz/Y9OA/avfWGLbHkcVEQpY="
+        }
+      ]
+    },
+    {
+      "Route": "images/RazorLogo.jpg",
+      "AssetFile": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\wwwroot\\images\\RazorLogo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jh8uzMgQQe3aq/Rr63PMHz/Y9OA/avfWGLbHkcVEQpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 09:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jh8uzMgQQe3aq/Rr63PMHz/Y9OA/avfWGLbHkcVEQpY="
         }
       ]
     },

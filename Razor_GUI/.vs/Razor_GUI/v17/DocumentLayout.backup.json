@@ -1,61 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\petri\\Desktop\\Razor_GUI\\",
+  "WorkspaceRootPath": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\articles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\models\\viewmodels\\editarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:models\\viewmodels\\addarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\articles\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\models\\viewmodels\\editarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:models\\viewmodels\\editarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\data\\razordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\data\\razordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:data\\razordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\models\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\models\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:models\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\petri\\desktop\\razor_gui\\razor_gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|c:\\users\\raveyun\\documents\\github\\gui\\razor_gui\\razor_gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{40737F2D-DB98-4B2A-9BF8-5550FA230600}|Razor_GUI.csproj|solutionrelative:razor_gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -66,189 +70,195 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T18:11:56.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Articles\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Articles\\Edit.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T17:21:23.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T17:18:18.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:18:18.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "List.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\List.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Articles\\List.cshtml.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\List.cshtml.cs",
               "RelativeToolTip": "Pages\\Articles\\List.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:17:34.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:17:34.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\List.cshtml",
               "RelativeDocumentMoniker": "Pages\\Articles\\List.cshtml",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\List.cshtml",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\List.cshtml",
               "RelativeToolTip": "Pages\\Articles\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-19T17:17:27.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AddArticleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\ViewModels\\AddArticleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\ViewModels\\AddArticleViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\AddArticleViewModel.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\ViewModels\\AddArticleViewModel.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\ViewModels\\AddArticleViewModel.cs",
               "RelativeToolTip": "Models\\ViewModels\\AddArticleViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:12:49.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:12:49.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Add.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Add.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Add.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Articles\\Add.cshtml.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Add.cshtml.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Add.cshtml.cs",
               "RelativeToolTip": "Pages\\Articles\\Add.cshtml.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:12:13.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:12:13.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Add.cshtml",
               "RelativeDocumentMoniker": "Pages\\Articles\\Add.cshtml",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Add.cshtml",
               "RelativeToolTip": "Pages\\Articles\\Add.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T17:11:58.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:11:58.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Articles\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Pages\\Articles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Pages\\Articles\\Edit.cshtml",
               "RelativeToolTip": "Pages\\Articles\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-19T17:20:23.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EditArticleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\ViewModels\\EditArticleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\ViewModels\\EditArticleViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\EditArticleViewModel.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\ViewModels\\EditArticleViewModel.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\ViewModels\\EditArticleViewModel.cs",
               "RelativeToolTip": "Models\\ViewModels\\EditArticleViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:23:11.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-19T16:47:00.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:46:57.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T17:23:11.914Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Article.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\Entities\\Article.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Article.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Models\\Entities\\Article.cs",
-              "RelativeToolTip": "Models\\Entities\\Article.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:45:18.764Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T16:47:00.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RazorDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Data\\RazorDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\RazorDbContext.cs",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Data\\RazorDbContext.cs",
-              "RelativeToolTip": "Data\\RazorDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:44:02.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T16:46:57.873Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Razor_GUI",
-              "DocumentMoniker": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Razor_GUI.csproj",
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\Entities\\Article.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Article.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Models\\Entities\\Article.cs",
+              "RelativeToolTip": "Models\\Entities\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:45:18.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RazorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Data\\RazorDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\RazorDbContext.cs",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Data\\RazorDbContext.cs",
+              "RelativeToolTip": "Data\\RazorDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:44:02.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Razor_GUI.csproj",
+              "DocumentMoniker": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Razor_GUI.csproj",
               "RelativeDocumentMoniker": "Razor_GUI.csproj",
-              "ToolTip": "C:\\Users\\petri\\Desktop\\Razor_GUI\\Razor_GUI.csproj",
+              "ToolTip": "C:\\Users\\Raveyun\\Documents\\GitHub\\GUI\\Razor_GUI\\Razor_GUI.csproj",
               "RelativeToolTip": "Razor_GUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T16:43:32.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T16:43:32.838Z"
             }
           ]
         }
