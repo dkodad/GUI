@@ -17,53 +17,53 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Razor_GUI
 build_property.RootNamespace = Razor_GUI
-build_property.ProjectDir = C:\Users\petri\Desktop\GUI\Razor_GUI\
+build_property.ProjectDir = C:\Users\Raveyun\Documents\GitHub\GUI\Razor_GUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\petri\Desktop\GUI\Razor_GUI
+build_property.MSBuildProjectDirectory = C:\Users\Raveyun\Documents\GitHub\GUI\Razor_GUI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Articles/Add.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Articles/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZXNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Articles/Edit.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Articles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Articles/List.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Articles/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Error.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Index.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Privacy.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/_ViewImports.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/_ViewStart.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/petri/Desktop/GUI/Razor_GUI/Pages/Shared/_Layout.cshtml]
+[C:/Users/Raveyun/Documents/GitHub/GUI/Razor_GUI/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nt0xkn8w1s

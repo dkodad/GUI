@@ -441,7 +441,7 @@ When running the application, we want to display our newly created **List** page
 
 ## Editing the Menu
 
-To add pages to the menu, we need to modify the **\_Layout.cshtml** file, which is located in **Pages -> Shared**. Find the `tag and within it, locate the` tag. Modify it as follows:
+To add pages to the menu, we need to modify the **\_Layout.cshtml** file, which is located in **Pages -> Shared**. Find the **`<nav>`** tag and within it, locate the **`<ul>`** tag. Modify it as follows:
 
 ```csharp
 <ul class="navbar-nav flex-grow-1">
