@@ -178,13 +178,13 @@ Ve složce **Pages** vytvoříme novou složku **Articles**. Ve složce si vytvo
 
 <div class="mb-3">
 	<label class="form-label">Title</label>
-	<input type="text" class="form-control" />
+	<input type="text" class="form-control" required/>
 </div>
 
 <div class="mb-3">
 	<label for="description" class="form-label">Description</label>
     <!--Textarea is bigger input field for bigger chunk of text--> 
-    <textarea id="description" class="form-control" rows="5"></textarea>
+    <textarea id="description" class="form-control" rows="5" required></textarea>
 </div>
 
 <div class="mb-3">
@@ -255,13 +255,13 @@ Upravíme **Add.cshtml** takto:
 <div class="mb-3">
 	<label class="form-label">Title</label>
     <!--We added the asp-for="AddArticleRequest.Title" so our property will store the value like [Title = <our title name>]--> 
-		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title" required/>
 </div>
 
 <div class="mb-3">
 	<label class="form-label">Description</label>
 		<!--Textarea is bigger input field for bigger chunk of text--> 
-        <textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5"></textarea>
+        <textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5" required></textarea>
 
 </div>
 
@@ -351,13 +351,13 @@ Pro zobrazení zprávy, že jsme úspěšně uložili příspěvek musíme uprav
 <div class="mb-3">
 	<label class="form-label">Title</label>
 		<!--We added the asp-for="AddArticleRequest.Title" so our property will store the value like [Title = <our title name>]-->
-		<input type="text" class="form-control" asp-for="AddArticleRequest.Title"/>
+		<input type="text" class="form-control" asp-for="AddArticleRequest.Title" required/>
 </div>
 
 <div class="mb-3">
 		<label for="description" class="form-label">Description</label>
 		<!--Textarea is bigger input field for bigger chunk of text-->
-		<textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5"></textarea>
+		<textarea id="description" class="form-control" asp-for="AddArticleRequest.Description" rows="5" required></textarea>
 
 </div>
 
@@ -493,13 +493,13 @@ Do Edit.cshtml přidáme následující:
 <div class="mb-3">
 	<label class="form-label">Title</label>
 	
-	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" />
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" required/>
 </div>
 
 <div class="mb-3">
 	<label for="description" class="form-label">Description</label>
 	<!--Textarea is bigger input field for bigger chunk of text-->
-	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5"></textarea>
+	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5" required></textarea>
 
 </div>
 
@@ -609,13 +609,13 @@ Pro zobrazení zprávy, že jsme příspěvek úspěšně upravili, musíme upra
 <div class="mb-3">
 	<label class="form-label">Title</label>
 	
-	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" />
+	<input type="text" class="form-control" asp-for="EditArticleViewModel.Title" required/>
 </div>
 
 <div class="mb-3">
 	<label for="description" class="form-label">Description</label>
 	<!--Textarea is bigger input field for bigger chunk of text-->
-	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5"></textarea>
+	<textarea id="description" class="form-control" asp-for="EditArticleViewModel.Description" rows="5" required></textarea>
 
 </div>
 
