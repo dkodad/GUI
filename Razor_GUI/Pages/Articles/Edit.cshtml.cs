@@ -51,7 +51,7 @@ namespace Razor_GUI.Pages.Articles
                     }
                     else
                     {
-                        theArticle.Title = EditArticleViewModel.Description;
+                        theArticle.Title = EditArticleViewModel.Title;
                         theArticle.Description = EditArticleViewModel.Description;
                         dbContext.SaveChanges();
 
